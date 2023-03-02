@@ -23,6 +23,13 @@ namespace TiposVarios
             Console.WriteLine("f = " + f);
             Console.WriteLine("g = " + g);
             Console.WriteLine("h = " + h);
+
+            double i = 10.45;
+            float j = 3.1415f;
+            decimal k = 42.69m;
+            Console.WriteLine("i = " + i);
+            Console.WriteLine("j = " + j);
+            Console.WriteLine("k = " + k);
         }
     }
 }
