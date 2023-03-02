@@ -30,6 +30,11 @@ namespace TiposVarios
             Console.WriteLine("i = " + i);
             Console.WriteLine("j = " + j);
             Console.WriteLine("k = " + k);
+
+            bool l = true;
+            bool m = 10 < 1;
+            Console.WriteLine("l = " + l);
+            Console.WriteLine("m = " + m);
         }
     }
 }
