@@ -6,6 +6,9 @@ namespace VariasStrings
     {
         static void Main(string[] args)
         {
+            double xx = 0.12345;
+            int ii = 18;
+            
             string s1 = "Aqui tem um tab\t e isto deve ser um b grande\u0042";
             string s2 = "Agora uma linha\n e outro caracter \u0065";
             string s3 = @"Isto é literalmente escrito \t \u0042";
@@ -31,6 +34,11 @@ namespace VariasStrings
             Console.WriteLine(s8);
             Console.WriteLine(s9);
             Console.WriteLine(@"Verbatim a seguir o exemplo x = {0}", x);
+
+            Console.WriteLine("{0:f2}", xx);
+            Console.WriteLine("{0:p1}", xx);
+            Console.WriteLine("{0:x}", ii);
+            Console.WriteLine("{0:c}", ii);
         }
     }
 }
